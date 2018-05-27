@@ -14,7 +14,7 @@ class BarTest < MiniTest::Test
     @room2 = Room.new(2)
     @room3 = Room.new(3)
     @song1 = Song.new("Hold up", "Beyonce")
-    @song1 = Song.new("Voodoo Child", "Jimi Hendrix")
+    @song2 = Song.new("Voodoo Child", "Jimi Hendrix")
     @guest1 = Guest.new("Tara", 5)
     @guest2 = Guest.new("Campbell", 70)
     @guest3 = Guest.new("Gregg", 56)
@@ -60,5 +60,12 @@ class BarTest < MiniTest::Test
     assert_equal(100, @kareoke_bar.till())
     assert_equal(0, @room1.guests_count)
   end
+
+  def test_person_favourite_song_is_included
+
+  end
+
+
+
 
 end

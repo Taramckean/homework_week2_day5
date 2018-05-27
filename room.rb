@@ -25,5 +25,8 @@ class Room
     @seats.count()
   end
 
+  def favourite_song_on_playlist(room, guest)
+    if room.songs.include?()
+    end
 
 end
